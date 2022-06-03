@@ -42,13 +42,13 @@ ul {
     /* >>  banner  << */
     header img{
         width: 720px;
-        margin-inline-start:450px;
+        margin-inline-start:425px;
     }
 
     /*main*/
    main{
     background-color: #111;
-    margin-left: 550px;
+    margin-left: 525px;
     text-align: center;
     max-height: 2500px;
     max-width: 500px;
@@ -65,8 +65,17 @@ ul {
         font-size: 14px;
         font-style: italic;
     }
-    .vagas{
-        
+
+.requisitosVagas{}
+
+.requisitosVagas h4{
+
+  color: aliceblue;
+
+}
+
+    .vagas h4{
+        margin-left: 10px;
     
     }
     .vagas img{
@@ -75,6 +84,9 @@ ul {
         width: 100px;
         border-radius: 50px;
         margin: 5px;
+    }
+    .vagas a{
+      color: transparent;
     }
 
     /* >>  explicação  << */
