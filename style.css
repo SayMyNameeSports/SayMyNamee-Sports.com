@@ -2,6 +2,7 @@
 
 
 ul {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,23 +12,30 @@ ul {
     border-style: ridge;
     border-color: red;
   }
-  
+
   li {
+
     float: left;
+
   }
-  
+
   li a {
+    margin-inline-start:230px;
+
+    border-radius: 20px;
+    border-style: double;
+    border-color: aliceblue;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
- 
+
     /*body*/
 
     body{
@@ -56,59 +64,13 @@ ul {
 
    }
 
-    /* >>  explicação  << */
-
-   .descricao p{
-       font-family: arial;
-        margin: 2%;
-        color: aliceblue;
-        font-size: 14px;
-        font-style: italic;
-    }
-
-.requisitosVagas{}
-
-.requisitosVagas h4{
-
-  color: aliceblue;
-
-}
-
-    .vagas h4{
-        margin-left: 10px;
-    
-    }
-    .vagas img{
-        padding-left: 6px ;
-        position: initial;
-        width: 100px;
-        border-radius: 50px;
-        margin: 5px;
-    }
-    .vagas a{
-      color: transparent;
-    }
-
-    /* >>  explicação  << */
-    /*footer*/
-    footer{
-
-    }
-    .footer{
-
-    }
-    footer a{
-        color: aliceblue;
-
-    }
-    footer a:hover{
-        color: lemonchiffon;
-
-    }
 
 
 /* >>  explicação  << */
 /* >>  explicação  << */
 /* >>  explicação  << */
 /* >>  explicação  << */
-/* >>  explicação  << */
+
+/*----------------------------------------------------*/
+
+/* >>  dispositivos móveis  << */
