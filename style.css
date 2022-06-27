@@ -1,76 +1,115 @@
-/* menu principal supeior  */
+body{
+    background-color: grey;
+    color: aliceblue;
+}
+
+header{
+
+    background-color: black;
+}
+header img{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: auto;
+    height: 400px;
+    margin-left: 550px;
+
+}
+
+/* menu superior */
+
+.w3-container{
+text-align: center;
+margin-left: 560px;
+width: 425px;
+
+}
+
+.w3-bar-item .w3-button img{
+
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    width: 35px;
+    border-radius: 100px;
+}
+
+.w3-container img{
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    float: right;
+    width: 35px;
+    border-radius: 100px;
+}
 
 
-ul {
+hr{
+    background-color: black;
+}
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+.container{
 
-    border-style: ridge;
-    border-color: red;
-  }
+border-style: ridge;
+background-color: darkgray;
+border-color: black;
+text-align: center;
 
-  li {
 
-    float: left;
+}
 
-  }
+/* telas menores que 600px */
 
-  li a {
-    margin-inline-start:230px;
-
-    border-radius: 20px;
-    border-style: double;
-    border-color: aliceblue;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #111;
-  }
-
-    /*body*/
-
+@media (max-width: 900px) {
     body{
-        background-color: rgba(17, 17, 17, 0.937);
-        color: antiquewhite;
+        font-size: 20px;
+        background-color: grey;
     }
 
-    /*header*/
     header{
-        background-color: #0F1821;
+        width: 900px;
+        background-color: black;
     }
-    /* >>  banner  << */
     header img{
-        width: 720px;
-        margin-inline-start:425px;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        width: auto;
+        height: 200px;
+        margin-left: 290px;
+
     }
 
-    /*main*/
-   main{
-    background-color: #111;
-    margin-left: 525px;
+
+/* menu superior */
+
+.w3-container{
     text-align: center;
-    max-height: 2500px;
-    max-width: 500px;
-    border-radius: 30px;
+    margin-left: 190px;
+    width: 500px;
+    
+    }
+    
+    .w3-bar-item .w3-button img{
+    
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
+    }
+    
+    .w3-container img{
+        margin-right: 5px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        float: right;
+        width: 35px;
+        border-radius: 100px;
+    }
 
-   }
 
-
-
-/* >>  explicação  << */
-/* >>  explicação  << */
-/* >>  explicação  << */
-/* >>  explicação  << */
-
-/*----------------------------------------------------*/
-
-/* >>  dispositivos móveis  << */
+}
